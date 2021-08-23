@@ -1,3 +1,91 @@
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+}
+
+h1 {
+  color: #4d4d4d;
+  margin-bottom: 0px;
+}
+
+h3 {
+  color: #456ee8;
+  margin-bottom: 6px;
+}
+
+.sample-text {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  line-height: 24px;
+}
+
+.feature-row {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-row .feature-column {
+  width: 26%;
+  background-color: #e5e5e5;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+.feature-row .feature-column .feature-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.feature-row .feature-column .feature-title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 26px;
+  color: black;
+}
+
+.feature-row .feature-column .feature-content {
+  color: #b3b3b3;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feature-row .feature-column .feature-chevron {
+  color: white;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.feature-row .feature-column:nth-child(2) {
+  background-color: #456ee8;
+}
+
+.feature-row .feature-column .feature-title:nth-child(2) {
+  color: white;
 }
